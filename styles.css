@@ -78,11 +78,11 @@ header {
 header h1 {
   font-family: var(--display);
   font-weight: 900;
-  font-size: clamp(5rem, 14vw, 12rem);
+  font-size: clamp(4.6rem, 12.5vw, 11rem);
   line-height: 0.92;
   letter-spacing: -0.03em;
   color: var(--white);
-  max-width: 70%;
+  max-width: 66%;
   font-style: italic;
 }
 
@@ -521,7 +521,7 @@ footer {
   nav { padding: 1.2rem 2.5rem; }
 
   header { padding: 4rem 2.5rem 0; }
-  header h1 { font-size: clamp(4rem, 12vw, 8rem); max-width: 60%; }
+  header h1 { font-size: clamp(3.8rem, 11vw, 7.2rem); max-width: 56%; }
   .header-img-wrap { width: 42%; height: 480px; }
 
   .about-block { grid-template-columns: 40px 1fr 1fr; gap: 2.5rem; padding: 5rem 2.5rem; }
